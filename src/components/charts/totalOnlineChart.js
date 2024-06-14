@@ -167,7 +167,7 @@ const TotalOnlineChart = () => {
             <Text style={styles.percentageText}>26%</Text>
           </View>
         </View>
-        <Text style={styles.salesText}>5,9k</Text>
+        <Text style={styles.salesText}>$59,410</Text>
       </View>
 
       <View style={styles.chartContainer}>

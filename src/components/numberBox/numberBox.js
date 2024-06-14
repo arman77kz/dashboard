@@ -5,7 +5,7 @@ import Index from '../../assets/index'
 
 
 
-const NumberBox =()=>{
+const NumberBox =(props)=>{
 
 
     return(
@@ -19,7 +19,7 @@ const NumberBox =()=>{
                                     <View style={{height:16,width:16,borderRadius:12,backgroundColor:'#FFE082',justifyContent:'center',alignItems:'center',}}>
                                         <Image source={Index.ARROW} style={{width:11,height:11,tintColor:'#FF6F00',transform:[{rotate:'180deg'}]}} />
                                     </View>
-                                    <Text style={{fontSize:20,fontWeight:'bold',marginLeft:10,color:'black'}}>80000</Text>
+                                    <Text style={{fontSize:20,fontWeight:'bold',marginLeft:10,color:'black'}}>{props.digital}</Text>
                                 </View>
                             </View>
                             <View style={{margin:20}}>
@@ -28,7 +28,7 @@ const NumberBox =()=>{
                                     <View style={{height:16,width:16,borderRadius:12,backgroundColor:'#C8E6C9',justifyContent:'center',alignItems:'center',}}>
                                         <Image source={Index.ARROW} style={{width:11,height:11}} />
                                     </View>
-                                    <Text style={{fontSize:20,fontWeight:'bold',marginLeft:10,color:'black'}}>80000</Text>
+                                    <Text style={{fontSize:20,fontWeight:'bold',marginLeft:10,color:'black'}}>{props.physical}</Text>
                                 </View>
                             </View>
 

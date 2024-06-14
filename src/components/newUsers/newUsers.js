@@ -32,10 +32,10 @@ const NewUsers = (props) => {
             TOTAL NEW USERS
         </Text>
         <View style={{flexDirection:'row',justifyContent:'center',alignItems:'center'}}>
-                                    <View style={{height:14,width:14,borderRadius:7,backgroundColor:'#FFE082',justifyContent:'center',alignItems:'center',}}>
-                                        <Image source={Index.ARROW} style={{width:9,height:9,tintColor:'#FF6F00',transform:[{rotate:'180deg'}]}} />
+                                    <View style={{height:14,width:14,borderRadius:7,backgroundColor:'#C8E6C9',justifyContent:'center',alignItems:'center',}}>
+                                        <Image source={Index.ARROW} style={{width:9,height:9}} />
                                     </View>
-                                    <Text style={{fontSize:12,fontWeight:'bold',marginLeft:5,color:'#E65100'}}>26%</Text>
+                                    <Text style={{fontSize:12,fontWeight:'bold',marginLeft:5,color:'#4CAF50'}}>26%</Text>
                                 </View>
       </View>
       <View style={{width:'85%'}}>
