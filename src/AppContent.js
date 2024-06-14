@@ -11,7 +11,7 @@ import { ThemeProvider} from './components/useTheme/useTheme';
 
 const initialLayout = { width: Dimensions.get('window').width };
 
-function AppContent() {
+function AppContent({navigation}) {
   const { colors, fonts } = useTheme();
   const [index, setIndex] = React.useState(0);
   const [routes] = React.useState([
@@ -37,6 +37,7 @@ function AppContent() {
         </Text>
       </View>
     <TabView
+    navigation={navigation}
       navigationState={{ index, routes }}
       renderScene={renderScene}
       onIndexChange={setIndex}
