@@ -1,0 +1,29 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "name": "person 1",
+        "item": 10,
+        "avatar":"./img/face1.png"
+      },
+      {
+        "id": 2,
+        "name": "person 2",
+        "item": 20,
+        "avatar":"./img/face2.png"
+      },
+      {
+        "id": 3,
+        "name": "person 3",
+        "item": 30,
+        "avatar":"./img/face3.png"
+      },
+      {
+        "id": 4,
+        "name": "person 3",
+        "item": 40,
+        "avatar":"./img/face4.png"
+      }
+    ]
+  }
+  

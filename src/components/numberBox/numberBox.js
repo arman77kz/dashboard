@@ -12,7 +12,7 @@ const NumberBox =()=>{
         <CardView cardElevation={5}
                         cardMaxElevation={5}
                         cornerRadius={15}
-                        style={{backgroundColor:'#f9f9f9',width:'90%',height:100,alignItems:'center',marginTop:5,flexDirection:'row',paddingLeft:20}}>
+                        style={{backgroundColor:'#fff',width:'90%',height:100,alignItems:'center',marginTop:5,flexDirection:'row',paddingLeft:20}}>
                             <View style={{margin:20}}>
                                 <Text style={{fontSize:11 ,color:'#9E9E9E',marginBottom:7,fontWeight:'bold'}}>DIGITAL PRODUCT</Text>
                                 <View style={{flexDirection:'row',justifyContent:'center',alignItems:'center'}}>
